@@ -1,0 +1,19 @@
+{
+  "name": "mercadolibre",
+  "version": "1.0.0",
+  "description": "mercado libre backend with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && node index.js",
+    "express:debug": "clear && nodemon --inspect index.js"
+  },
+  "author": "santiifonzalida@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
